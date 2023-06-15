@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+:root{
+    --cor-one: rgb(234, 201, 172);
+    --cor-two: rgb(245, 236, 193);
+    --cor-tree: rgb(67, 57, 50);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:var(--cor-one);
+    font-family: 'Playfair Display', 'Merriweather';
+    color: #fff;
+}
+.container{
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-two);
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 5%;
+    color: #000;
+}
